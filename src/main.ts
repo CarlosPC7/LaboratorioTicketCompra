@@ -66,7 +66,6 @@ export const calculaTicket = (lineasTicket: LineaTicket[]): TicketFinal => {
   let totalSinIva = 0;
   let totalIva = 0;
 
-  // Usar la estructura explícita
   const desgloseIva: DesgloseIva = {
     general: 0,
     reducido: 0,
@@ -189,7 +188,7 @@ export const calculaTicketConReduce = (lineasTicket: LineaTicket[]): TicketFinal
       lineas: [] as ResultadoLineaTicket[],
       totalSinIva: 0,
       totalIva: 0,
-      // Usar la estructura explícita
+      
       desgloseIva: {
         general: 0,
         reducido: 0,
